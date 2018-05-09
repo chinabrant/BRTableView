@@ -1,0 +1,16 @@
+PODS:
+  - BRTableView (1.0.1)
+
+DEPENDENCIES:
+  - BRTableView (from `../`)
+
+EXTERNAL SOURCES:
+  BRTableView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BRTableView: 872e7c69ce50c2c8c1168c6815817273974abc85
+
+PODFILE CHECKSUM: 242ef4993980e147382ca0c7b003bd56c963a456
+
+COCOAPODS: 1.4.0

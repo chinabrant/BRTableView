@@ -1,0 +1,6 @@
+framework module Pods_BRTableView_Tests {
+  umbrella header "Pods-BRTableView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

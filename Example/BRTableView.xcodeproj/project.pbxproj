@@ -23,6 +23,12 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		942BAD8720A2A0F500BEF868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942BAD7E20A2A0F300BEF868 /* LaunchScreen.storyboard */; };
+		942BAD8820A2A0F500BEF868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942BAD8020A2A0F300BEF868 /* Main.storyboard */; };
+		942BAD8920A2A0F500BEF868 /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 942BAD8220A2A0F300BEF868 /* DemoCell.m */; };
+		942BAD8A20A2A0F500BEF868 /* DemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942BAD8420A2A0F400BEF868 /* DemoCell.xib */; };
+		942BAD8B20A2A0F500BEF868 /* BRViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 942BAD8520A2A0F400BEF868 /* BRViewModel.m */; };
+		942BAD8C20A2A0F500BEF868 /* DemoCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 942BAD8620A2A0F500BEF868 /* DemoCellViewModel.m */; };
 		D0B683CD3E771A7757C4987A /* Pods_BRTableView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66404432F3686B78A25CED44 /* Pods_BRTableView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,9 +44,9 @@
 
 /* Begin PBXFileReference section */
 		19BEBF96F0C658C3C441F501 /* Pods-BRTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRTableView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BRTableView_Example/Pods-BRTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		258B92165F14886A38B4B66D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2F7BA21BECA0E7E740DFF159 /* BRTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BRTableView.podspec; path = ../BRTableView.podspec; sourceTree = "<group>"; };
-		4B1A20D5828362C55025669B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		258B92165F14886A38B4B66D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2F7BA21BECA0E7E740DFF159 /* BRTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BRTableView.podspec; path = ../BRTableView.podspec; sourceTree = "<group>"; };
+		4B1A20D5828362C55025669B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		560F0A5903FF7B130E5A0370 /* Pods-BRTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRTableView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BRTableView_Example/Pods-BRTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BRTableView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRTableView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,6 +70,15 @@
 		66404432F3686B78A25CED44 /* Pods_BRTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BRTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		942BAD7B20A2A0F300BEF868 /* BRViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRViewModel.h; sourceTree = "<group>"; };
+		942BAD7C20A2A0F300BEF868 /* DemoCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCellViewModel.h; sourceTree = "<group>"; };
+		942BAD7F20A2A0F300BEF868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		942BAD8120A2A0F300BEF868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		942BAD8220A2A0F300BEF868 /* DemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCell.m; sourceTree = "<group>"; };
+		942BAD8320A2A0F400BEF868 /* DemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCell.h; sourceTree = "<group>"; };
+		942BAD8420A2A0F400BEF868 /* DemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoCell.xib; sourceTree = "<group>"; };
+		942BAD8520A2A0F400BEF868 /* BRViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRViewModel.m; sourceTree = "<group>"; };
+		942BAD8620A2A0F500BEF868 /* DemoCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCellViewModel.m; sourceTree = "<group>"; };
 		95028E1D89C5AA98676761C8 /* Pods_BRTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BRTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1D3FB0B029BF214DBE543F /* Pods-BRTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRTableView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BRTableView_Tests/Pods-BRTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CAA029933AD1EA686827F93E /* Pods-BRTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRTableView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BRTableView_Tests/Pods-BRTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +147,14 @@
 		6003F593195388D20070C39A /* Example for BRTableView */ = {
 			isa = PBXGroup;
 			children = (
+				942BAD7D20A2A0F300BEF868 /* Base.lproj */,
+				942BAD8320A2A0F400BEF868 /* DemoCell.h */,
+				942BAD8220A2A0F300BEF868 /* DemoCell.m */,
+				942BAD8420A2A0F400BEF868 /* DemoCell.xib */,
+				942BAD7C20A2A0F300BEF868 /* DemoCellViewModel.h */,
+				942BAD8620A2A0F500BEF868 /* DemoCellViewModel.m */,
+				942BAD7B20A2A0F300BEF868 /* BRViewModel.h */,
+				942BAD8520A2A0F400BEF868 /* BRViewModel.m */,
 				6003F59C195388D20070C39A /* BRAppDelegate.h */,
 				6003F59D195388D20070C39A /* BRAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -183,6 +206,15 @@
 				258B92165F14886A38B4B66D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		942BAD7D20A2A0F300BEF868 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				942BAD7E20A2A0F300BEF868 /* LaunchScreen.storyboard */,
+				942BAD8020A2A0F300BEF868 /* Main.storyboard */,
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 		C0FBA4F44F85E2461921A748 /* Pods */ = {
@@ -250,6 +282,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "sjwu1234@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = LWHVHZ3462;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -281,7 +316,10 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				942BAD8A20A2A0F500BEF868 /* DemoCell.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				942BAD8820A2A0F500BEF868 /* Main.storyboard in Resources */,
+				942BAD8720A2A0F500BEF868 /* LaunchScreen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,7 +443,10 @@
 			files = (
 				6003F59E195388D20070C39A /* BRAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* BRViewController.m in Sources */,
+				942BAD8920A2A0F500BEF868 /* DemoCell.m in Sources */,
+				942BAD8C20A2A0F500BEF868 /* DemoCellViewModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				942BAD8B20A2A0F500BEF868 /* BRViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +491,22 @@
 				71719F9E1E33DC2100824A3D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		942BAD7E20A2A0F300BEF868 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942BAD7F20A2A0F300BEF868 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		942BAD8020A2A0F300BEF868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942BAD8120A2A0F300BEF868 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -533,6 +590,7 @@
 			baseConfigurationReference = 560F0A5903FF7B130E5A0370 /* Pods-BRTableView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LWHVHZ3462;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BRTableView/BRTableView-Prefix.pch";
 				INFOPLIST_FILE = "BRTableView/BRTableView-Info.plist";
@@ -548,6 +606,7 @@
 			baseConfigurationReference = 19BEBF96F0C658C3C441F501 /* Pods-BRTableView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LWHVHZ3462;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BRTableView/BRTableView-Prefix.pch";
 				INFOPLIST_FILE = "BRTableView/BRTableView-Info.plist";

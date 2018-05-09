@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08FB2F5992335BA2409D89E60B964534 /* BRGapCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C655F6882C7C2FEACD9D0EB00E3FEB /* BRGapCellViewModel.m */; };
+		08FFEFAE0A0A545DB36F078785BBAA01 /* BRTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE56E49B97BF0C5464FEF86FBC32A3 /* BRTableViewSection.m */; };
+		0EB1A5030F7FC0664690CC8519FE96E3 /* BRTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 31EAB2B16500B3FC6A7E4582365549CE /* BRTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		126751D5BD43D9CDFBDBB6808E55383F /* Pods-BRTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93ABBBA5C92D60814CBD59A69124A58D /* Pods-BRTableView_Example-dummy.m */; };
+		3382618EEB53F841A5712DAE92B017BE /* BRTableCellViewModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F17E41A17B5CDF705AD0DF2CC07D0037 /* BRTableCellViewModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5898C25483A92833C547A598CD21FAAC /* BRGapCellViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A62668CA57C16B30E5ABC03587DC527B /* BRGapCellViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FF6E3D88869B0C4A024D657E8DA4A30 /* BRSectionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EAB0C7AC4B8BC53AFA293453D21A134 /* BRSectionFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6169FA5C60ACB003988421F21F6D03B5 /* BRTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73DF3565C1D8E40CD86440FB34D277 /* BRTableView-dummy.m */; };
+		67C0DA809D07BE936E293CADF49D7CB0 /* BRTableViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CFE9FBEF0A0F0982C79B0FD7F58BAC /* BRTableViewSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70372808962A4114B826C5C37D0A9DB9 /* BRTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D83272169E868A0691A152B024B2386A /* BRTableView.m */; };
+		7B4F9D8BBA414D95539CEF5EAC57DCB5 /* BRNormalCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7189936D3CBDB8EFE34C334A93B1F0 /* BRNormalCellViewModel.m */; };
+		817F69A7E30307633E9D5371D1FAB92F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		86C2ECEECF3FD7C6B959C9724F209154 /* Pods-BRTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB76B19B49214B3C6B6D00DA33416D4B /* Pods-BRTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AC47F13CE9087B88EC2DE2390303274 /* BRGapCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 07CB0CC89AE6287D58192FB44CA88048 /* BRGapCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		938D22B5A093294C4555230735A303C6 /* BRCellProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EB601579700E22BA81AF47FF1EA243 /* BRCellProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9943D47BDA45F0A01DBBEA128B21470A /* Pods-BRTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEE91703C81A7EC00CAB1E066CEAF84 /* Pods-BRTableView_Tests-dummy.m */; };
+		B8666E3C2B0B871538130CD310534C71 /* Pods-BRTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB7BB93AE9F68E4C9CACFB31AA99C88 /* Pods-BRTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA79D81F4D6535C2987B56224550A3F8 /* BRGapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A55FC67503E64D7300AB9289B72C8 /* BRGapCell.m */; };
+		BF4D4A88FB49DDB07B67491998240606 /* BRNormalCellViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BFA4403DCC7A853DB4D7DB7709C972B /* BRNormalCellViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C044EE8B9BCADF957492280ABA1C0F93 /* BRNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A78E5F98267E76C7517C7A17355C284E /* BRNormalCell.m */; };
+		CA26E9519DFAB7F5059CE8B00FE39F6C /* BRNormalCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AE18C5B737A4694B7B8906C357A1B00D /* BRNormalCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDBBD6265DDD22C64CACF7EB6158EB63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EF6325BEA08603B3C8DE2CE816C7FCB6 /* BRTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C4AD2BDEAA6E23C4EC82385D8E614F /* BRTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F23E64F04863FFC7787F6A2880B3F71E /* BRSectionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8A4DD885D74276DBBA0450CE223E58 /* BRSectionFactory.m */; };
+		FD66DA0BE51D58F8B243D4330123E91A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1993F659FC628AC9DCE796AEEF96FAA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D318D8836359B9E42FF6C7E17EBB6356;
+			remoteInfo = BRTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050811BE79AB421E8210C129E273A4A9 /* Pods-BRTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BRTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		064F9C403A4C60E84E1A7A189124B5BE /* BRTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BRTableView.framework; path = BRTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CB0CC89AE6287D58192FB44CA88048 /* BRGapCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BRGapCell.h; sourceTree = "<group>"; };
+		0F7076689D79B9790CDC30FF74B17B32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A6C560E3581AB53B2301214B93610A /* Pods-BRTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BRTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		18EE56E49B97BF0C5464FEF86FBC32A3 /* BRTableViewSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRTableViewSection.m; path = BRTableView/Classes/BRTableViewSection.m; sourceTree = "<group>"; };
+		19A52B44719F31DF7F33C4D795F5504D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D7189936D3CBDB8EFE34C334A93B1F0 /* BRNormalCellViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BRNormalCellViewModel.m; sourceTree = "<group>"; };
+		2B995EBE20FCCA9B5BA048D798130DFF /* Pods-BRTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BRTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2BEE91703C81A7EC00CAB1E066CEAF84 /* Pods-BRTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BRTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		2EAB0C7AC4B8BC53AFA293453D21A134 /* BRSectionFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BRSectionFactory.h; sourceTree = "<group>"; };
+		3064929C90C2DD3817F0C5E2E51A20B2 /* Pods-BRTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BRTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		31EAB2B16500B3FC6A7E4582365549CE /* BRTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRTableView.h; path = BRTableView/Classes/BRTableView.h; sourceTree = "<group>"; };
+		349E7A1C961A7D576117FA569E9A13A7 /* Pods-BRTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BRTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		39C655F6882C7C2FEACD9D0EB00E3FEB /* BRGapCellViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BRGapCellViewModel.m; sourceTree = "<group>"; };
+		3AB7BB93AE9F68E4C9CACFB31AA99C88 /* Pods-BRTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BRTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		47CFE9FBEF0A0F0982C79B0FD7F58BAC /* BRTableViewSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRTableViewSection.h; path = BRTableView/Classes/BRTableViewSection.h; sourceTree = "<group>"; };
+		51B436B0FE223E661D8ED8FD2812E525 /* Pods-BRTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BRTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		52FCEBB0E8317AF25F3F1FDB6F6BD404 /* Pods-BRTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BRTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53C4AD2BDEAA6E23C4EC82385D8E614F /* BRTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRTableView-umbrella.h"; sourceTree = "<group>"; };
+		5BFA4403DCC7A853DB4D7DB7709C972B /* BRNormalCellViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BRNormalCellViewModel.h; sourceTree = "<group>"; };
+		5C73DF3565C1D8E40CD86440FB34D277 /* BRTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BRTableView-dummy.m"; sourceTree = "<group>"; };
+		6559115737525D318D40E1DA080EFE00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		761A55FC67503E64D7300AB9289B72C8 /* BRGapCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BRGapCell.m; sourceTree = "<group>"; };
+		7C3A1E40A535D65E1092EAA125225133 /* Pods-BRTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BRTableView_Example.modulemap"; sourceTree = "<group>"; };
+		88EB601579700E22BA81AF47FF1EA243 /* BRCellProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRCellProtocol.h; path = BRTableView/Classes/BRCellProtocol.h; sourceTree = "<group>"; };
+		8B5C2ADFF21A1CB6E7B8D93E1CF13187 /* Pods-BRTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BRTableView_Tests.modulemap"; sourceTree = "<group>"; };
+		91B5B3C04C06BBE9CFF6CBCD3077792C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93ABBBA5C92D60814CBD59A69124A58D /* Pods-BRTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BRTableView_Example-dummy.m"; sourceTree = "<group>"; };
+		9AE64E0F783167E9821BEC9911BFA304 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A2E43287A5AFA24AD686E2F1616A67A1 /* Pods-BRTableView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BRTableView_Tests-resources.sh"; sourceTree = "<group>"; };
+		A62668CA57C16B30E5ABC03587DC527B /* BRGapCellViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BRGapCellViewModel.h; sourceTree = "<group>"; };
+		A78E5F98267E76C7517C7A17355C284E /* BRNormalCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BRNormalCell.m; sourceTree = "<group>"; };
+		AA3FE5E8D81C7618CE94400AE19607C2 /* Pods_BRTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BRTableView_Tests.framework; path = "Pods-BRTableView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5C3C022E48698BD07749982C34577B /* BRTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BRTableView.modulemap; sourceTree = "<group>"; };
+		AE18C5B737A4694B7B8906C357A1B00D /* BRNormalCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BRNormalCell.h; sourceTree = "<group>"; };
+		AE886CC2309BD78B04ED7D19DC36C106 /* Pods-BRTableView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BRTableView_Example-resources.sh"; sourceTree = "<group>"; };
+		B17FE2C2242DA69555AB723A0A113C22 /* BRTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRTableView.xcconfig; sourceTree = "<group>"; };
+		BE0CA9F440BAF6B80375C1937E2B2F19 /* Pods-BRTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BRTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C4F7A69BAF354B69D1082CB0752832B9 /* Pods_BRTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BRTableView_Example.framework; path = "Pods-BRTableView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB25692DCB6093976A6C72B202076DF /* Pods-BRTableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BRTableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D08032764F6E529E49588CBF525F257F /* BRTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BRTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D83272169E868A0691A152B024B2386A /* BRTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRTableView.m; path = BRTableView/Classes/BRTableView.m; sourceTree = "<group>"; };
+		DB76B19B49214B3C6B6D00DA33416D4B /* Pods-BRTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BRTableView_Example-umbrella.h"; sourceTree = "<group>"; };
+		ED8A4DD885D74276DBBA0450CE223E58 /* BRSectionFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BRSectionFactory.m; sourceTree = "<group>"; };
+		EE2C735B81E8988008DD1C8A97FFCCAD /* BRTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRTableView-prefix.pch"; sourceTree = "<group>"; };
+		F17E41A17B5CDF705AD0DF2CC07D0037 /* BRTableCellViewModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRTableCellViewModelProtocol.h; path = BRTableView/Classes/BRTableCellViewModelProtocol.h; sourceTree = "<group>"; };
+		F4767750DF327A49F10FF85B5A1E0E50 /* Pods-BRTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BRTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C341C0B5FDC76D36F1A38568E89E3018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817F69A7E30307633E9D5371D1FAB92F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C656CB2CA0CCF00CEAD5E37ABD309BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD66DA0BE51D58F8B243D4330123E91A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10A84DEE50585D266F30913B74BEE2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBBD6265DDD22C64CACF7EB6158EB63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0435A9FB4FF7746D1EF8C6111209281F /* CellViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A62668CA57C16B30E5ABC03587DC527B /* BRGapCellViewModel.h */,
+				39C655F6882C7C2FEACD9D0EB00E3FEB /* BRGapCellViewModel.m */,
+				5BFA4403DCC7A853DB4D7DB7709C972B /* BRNormalCellViewModel.h */,
+				1D7189936D3CBDB8EFE34C334A93B1F0 /* BRNormalCellViewModel.m */,
+			);
+			name = CellViewModels;
+			path = CellViewModels;
+			sourceTree = "<group>";
+		};
+		0DBFC0C593CEC581F4F54EC34993332B /* Pods-BRTableView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0F7076689D79B9790CDC30FF74B17B32 /* Info.plist */,
+				8B5C2ADFF21A1CB6E7B8D93E1CF13187 /* Pods-BRTableView_Tests.modulemap */,
+				52FCEBB0E8317AF25F3F1FDB6F6BD404 /* Pods-BRTableView_Tests-acknowledgements.markdown */,
+				3064929C90C2DD3817F0C5E2E51A20B2 /* Pods-BRTableView_Tests-acknowledgements.plist */,
+				2BEE91703C81A7EC00CAB1E066CEAF84 /* Pods-BRTableView_Tests-dummy.m */,
+				CCB25692DCB6093976A6C72B202076DF /* Pods-BRTableView_Tests-frameworks.sh */,
+				A2E43287A5AFA24AD686E2F1616A67A1 /* Pods-BRTableView_Tests-resources.sh */,
+				3AB7BB93AE9F68E4C9CACFB31AA99C88 /* Pods-BRTableView_Tests-umbrella.h */,
+				12A6C560E3581AB53B2301214B93610A /* Pods-BRTableView_Tests.debug.xcconfig */,
+				349E7A1C961A7D576117FA569E9A13A7 /* Pods-BRTableView_Tests.release.xcconfig */,
+			);
+			name = "Pods-BRTableView_Tests";
+			path = "Target Support Files/Pods-BRTableView_Tests";
+			sourceTree = "<group>";
+		};
+		1F958B9168BFC221FD2D89D75B5EF74F /* BRTableView */ = {
+			isa = PBXGroup;
+			children = (
+				88EB601579700E22BA81AF47FF1EA243 /* BRCellProtocol.h */,
+				F17E41A17B5CDF705AD0DF2CC07D0037 /* BRTableCellViewModelProtocol.h */,
+				31EAB2B16500B3FC6A7E4582365549CE /* BRTableView.h */,
+				D83272169E868A0691A152B024B2386A /* BRTableView.m */,
+				47CFE9FBEF0A0F0982C79B0FD7F58BAC /* BRTableViewSection.h */,
+				18EE56E49B97BF0C5464FEF86FBC32A3 /* BRTableViewSection.m */,
+				992D3374683DC8D23FE6299E63C30D32 /* CommonCells */,
+				42302A93825DB7A6F6A5659760D81019 /* Pod */,
+				E993381872ECEA2E0E2209707DC586BE /* Support Files */,
+			);
+			name = BRTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		21B757678A2FEEE3928228BA82EC7380 /* Pods-BRTableView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				19A52B44719F31DF7F33C4D795F5504D /* Info.plist */,
+				7C3A1E40A535D65E1092EAA125225133 /* Pods-BRTableView_Example.modulemap */,
+				050811BE79AB421E8210C129E273A4A9 /* Pods-BRTableView_Example-acknowledgements.markdown */,
+				51B436B0FE223E661D8ED8FD2812E525 /* Pods-BRTableView_Example-acknowledgements.plist */,
+				93ABBBA5C92D60814CBD59A69124A58D /* Pods-BRTableView_Example-dummy.m */,
+				2B995EBE20FCCA9B5BA048D798130DFF /* Pods-BRTableView_Example-frameworks.sh */,
+				AE886CC2309BD78B04ED7D19DC36C106 /* Pods-BRTableView_Example-resources.sh */,
+				DB76B19B49214B3C6B6D00DA33416D4B /* Pods-BRTableView_Example-umbrella.h */,
+				BE0CA9F440BAF6B80375C1937E2B2F19 /* Pods-BRTableView_Example.debug.xcconfig */,
+				F4767750DF327A49F10FF85B5A1E0E50 /* Pods-BRTableView_Example.release.xcconfig */,
+			);
+			name = "Pods-BRTableView_Example";
+			path = "Target Support Files/Pods-BRTableView_Example";
+			sourceTree = "<group>";
+		};
+		42302A93825DB7A6F6A5659760D81019 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D08032764F6E529E49588CBF525F257F /* BRTableView.podspec */,
+				9AE64E0F783167E9821BEC9911BFA304 /* LICENSE */,
+				6559115737525D318D40E1DA080EFE00 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5F2CED0F8529EE38507BF883487FD9B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21B757678A2FEEE3928228BA82EC7380 /* Pods-BRTableView_Example */,
+				0DBFC0C593CEC581F4F54EC34993332B /* Pods-BRTableView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		61726F7649857CC13DDB9E35A49412D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				064F9C403A4C60E84E1A7A189124B5BE /* BRTableView.framework */,
+				C4F7A69BAF354B69D1082CB0752832B9 /* Pods_BRTableView_Example.framework */,
+				AA3FE5E8D81C7618CE94400AE19607C2 /* Pods_BRTableView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C930B1633D0E49D4B480451742975A89 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				61726F7649857CC13DDB9E35A49412D3 /* Products */,
+				5F2CED0F8529EE38507BF883487FD9B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		992D3374683DC8D23FE6299E63C30D32 /* CommonCells */ = {
+			isa = PBXGroup;
+			children = (
+				07CB0CC89AE6287D58192FB44CA88048 /* BRGapCell.h */,
+				761A55FC67503E64D7300AB9289B72C8 /* BRGapCell.m */,
+				AE18C5B737A4694B7B8906C357A1B00D /* BRNormalCell.h */,
+				A78E5F98267E76C7517C7A17355C284E /* BRNormalCell.m */,
+				2EAB0C7AC4B8BC53AFA293453D21A134 /* BRSectionFactory.h */,
+				ED8A4DD885D74276DBBA0450CE223E58 /* BRSectionFactory.m */,
+				0435A9FB4FF7746D1EF8C6111209281F /* CellViewModels */,
+			);
+			name = CommonCells;
+			path = BRTableView/Classes/CommonCells;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C930B1633D0E49D4B480451742975A89 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F958B9168BFC221FD2D89D75B5EF74F /* BRTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E993381872ECEA2E0E2209707DC586BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5C3C022E48698BD07749982C34577B /* BRTableView.modulemap */,
+				B17FE2C2242DA69555AB723A0A113C22 /* BRTableView.xcconfig */,
+				5C73DF3565C1D8E40CD86440FB34D277 /* BRTableView-dummy.m */,
+				EE2C735B81E8988008DD1C8A97FFCCAD /* BRTableView-prefix.pch */,
+				53C4AD2BDEAA6E23C4EC82385D8E614F /* BRTableView-umbrella.h */,
+				91B5B3C04C06BBE9CFF6CBCD3077792C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BRTableView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		59FF1C35192F12E68C70E5A9EFD6222A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938D22B5A093294C4555230735A303C6 /* BRCellProtocol.h in Headers */,
+				8AC47F13CE9087B88EC2DE2390303274 /* BRGapCell.h in Headers */,
+				5898C25483A92833C547A598CD21FAAC /* BRGapCellViewModel.h in Headers */,
+				CA26E9519DFAB7F5059CE8B00FE39F6C /* BRNormalCell.h in Headers */,
+				BF4D4A88FB49DDB07B67491998240606 /* BRNormalCellViewModel.h in Headers */,
+				5FF6E3D88869B0C4A024D657E8DA4A30 /* BRSectionFactory.h in Headers */,
+				3382618EEB53F841A5712DAE92B017BE /* BRTableCellViewModelProtocol.h in Headers */,
+				EF6325BEA08603B3C8DE2CE816C7FCB6 /* BRTableView-umbrella.h in Headers */,
+				0EB1A5030F7FC0664690CC8519FE96E3 /* BRTableView.h in Headers */,
+				67C0DA809D07BE936E293CADF49D7CB0 /* BRTableViewSection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A2E33CE79A9B9223FE1E3DC79BC55C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C2ECEECF3FD7C6B959C9724F209154 /* Pods-BRTableView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4634D890CDB6FFE0ACE0EE82EC3A9B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8666E3C2B0B871538130CD310534C71 /* Pods-BRTableView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		218101EE89465B4810095A93874EADF4 /* Pods-BRTableView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FE79AFC08CD462250CFF13F1D3C5F1C /* Build configuration list for PBXNativeTarget "Pods-BRTableView_Example" */;
+			buildPhases = (
+				2AB53B8DEF11BB673C59165401180D9A /* Sources */,
+				C656CB2CA0CCF00CEAD5E37ABD309BE9 /* Frameworks */,
+				69A2E33CE79A9B9223FE1E3DC79BC55C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3259C677A8F6B94B04569D1A837AE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-BRTableView_Example";
+			productName = "Pods-BRTableView_Example";
+			productReference = C4F7A69BAF354B69D1082CB0752832B9 /* Pods_BRTableView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90CEC8E39732EF84AE999875999B69C5 /* Pods-BRTableView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 374B53943D2135379C1C53C391165349 /* Build configuration list for PBXNativeTarget "Pods-BRTableView_Tests" */;
+			buildPhases = (
+				7443AE2382A116184E61B597A05BB8B7 /* Sources */,
+				D10A84DEE50585D266F30913B74BEE2B /* Frameworks */,
+				C4634D890CDB6FFE0ACE0EE82EC3A9B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BRTableView_Tests";
+			productName = "Pods-BRTableView_Tests";
+			productReference = AA3FE5E8D81C7618CE94400AE19607C2 /* Pods_BRTableView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D318D8836359B9E42FF6C7E17EBB6356 /* BRTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01338EEB69E9F7FAFD35F6BFAB2C0466 /* Build configuration list for PBXNativeTarget "BRTableView" */;
+			buildPhases = (
+				532DF323B66F4F84B78C3D8600D27440 /* Sources */,
+				C341C0B5FDC76D36F1A38568E89E3018 /* Frameworks */,
+				59FF1C35192F12E68C70E5A9EFD6222A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRTableView;
+			productName = BRTableView;
+			productReference = 064F9C403A4C60E84E1A7A189124B5BE /* BRTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 61726F7649857CC13DDB9E35A49412D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D318D8836359B9E42FF6C7E17EBB6356 /* BRTableView */,
+				218101EE89465B4810095A93874EADF4 /* Pods-BRTableView_Example */,
+				90CEC8E39732EF84AE999875999B69C5 /* Pods-BRTableView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AB53B8DEF11BB673C59165401180D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126751D5BD43D9CDFBDBB6808E55383F /* Pods-BRTableView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532DF323B66F4F84B78C3D8600D27440 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA79D81F4D6535C2987B56224550A3F8 /* BRGapCell.m in Sources */,
+				08FB2F5992335BA2409D89E60B964534 /* BRGapCellViewModel.m in Sources */,
+				C044EE8B9BCADF957492280ABA1C0F93 /* BRNormalCell.m in Sources */,
+				7B4F9D8BBA414D95539CEF5EAC57DCB5 /* BRNormalCellViewModel.m in Sources */,
+				F23E64F04863FFC7787F6A2880B3F71E /* BRSectionFactory.m in Sources */,
+				6169FA5C60ACB003988421F21F6D03B5 /* BRTableView-dummy.m in Sources */,
+				70372808962A4114B826C5C37D0A9DB9 /* BRTableView.m in Sources */,
+				08FFEFAE0A0A545DB36F078785BBAA01 /* BRTableViewSection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7443AE2382A116184E61B597A05BB8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9943D47BDA45F0A01DBBEA128B21470A /* Pods-BRTableView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF3259C677A8F6B94B04569D1A837AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRTableView;
+			target = D318D8836359B9E42FF6C7E17EBB6356 /* BRTableView */;
+			targetProxy = 1993F659FC628AC9DCE796AEEF96FAA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D4FBFC0BA99D905A40B511B44D71397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A6C560E3581AB53B2301214B93610A /* Pods-BRTableView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BRTableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BRTableView_Tests/Pods-BRTableView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BRTableView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1BDED752E628566468799E146FB73F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17FE2C2242DA69555AB723A0A113C22 /* BRTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BRTableView/BRTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRTableView/BRTableView.modulemap";
+				PRODUCT_NAME = BRTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3803C1F407FCD6ACD77E1ABE9B37E338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17FE2C2242DA69555AB723A0A113C22 /* BRTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BRTableView/BRTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRTableView/BRTableView.modulemap";
+				PRODUCT_NAME = BRTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		85924002B4E5B78980F89B1DA40782DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4767750DF327A49F10FF85B5A1E0E50 /* Pods-BRTableView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BRTableView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BRTableView_Example/Pods-BRTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BRTableView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE6D075D55E8BCBE9945B70BCDACE2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349E7A1C961A7D576117FA569E9A13A7 /* Pods-BRTableView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BRTableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BRTableView_Tests/Pods-BRTableView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BRTableView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8D7E7D4B4A1CCF16187F0343B105F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0CA9F440BAF6B80375C1937E2B2F19 /* Pods-BRTableView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BRTableView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BRTableView_Example/Pods-BRTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BRTableView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01338EEB69E9F7FAFD35F6BFAB2C0466 /* Build configuration list for PBXNativeTarget "BRTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDED752E628566468799E146FB73F13 /* Debug */,
+				3803C1F407FCD6ACD77E1ABE9B37E338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FE79AFC08CD462250CFF13F1D3C5F1C /* Build configuration list for PBXNativeTarget "Pods-BRTableView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D7E7D4B4A1CCF16187F0343B105F51 /* Debug */,
+				85924002B4E5B78980F89B1DA40782DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		374B53943D2135379C1C53C391165349 /* Build configuration list for PBXNativeTarget "Pods-BRTableView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4FBFC0BA99D905A40B511B44D71397 /* Debug */,
+				AE6D075D55E8BCBE9945B70BCDACE2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
