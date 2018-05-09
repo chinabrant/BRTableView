@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BRTableView_Example' do
+  pod 'BRTableView', :path => '../'
+
+  target 'BRTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
